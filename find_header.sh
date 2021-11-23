@@ -1,4 +1,10 @@
 #!/bin/sh
+# A script to find the location of C header files.
+#
+# Example:
+#     $ ./find_header.sh stdbool.h stdio.h
+#     /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdbool.h
+#     /usr/include/stdio.h
 set -eu
 
 find_header() {

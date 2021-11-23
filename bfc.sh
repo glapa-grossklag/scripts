@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A script to go from Brainfuck to C to an executable.
 set -eu
 
 PRELUDE=$(cat << EOF
